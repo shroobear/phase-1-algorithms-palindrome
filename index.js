@@ -15,12 +15,12 @@ function isPalindrome(word) {
   create new reversed array
   convert the reversed array into a single value
   compare the new reversed value to the original
-  return true or fals
+  return true or false
 */
 
 /*
   Add written explanation of your solution here
-  the function breaks the word into an array of individual letters using .split. after that, the individual letters are reversed and put into a new array, which is converted again into a single element. if the values are equivalent, the function returns true.
+  the function breaks the word into an array of individual letters using .split. after that, the individual letters are reversed and put into a new array, which is converted again into a single element. if the values are strictly equivalent, the function returns true. otherwise it returns false.
   */
 
 // You can run `node index.js` to view these console logs
